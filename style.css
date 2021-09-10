@@ -15,7 +15,7 @@ body{
 .contain1, .contain2, .contain3{
     position: relative;
     width: 100%;
-    height: 100vw;
+    height: 100vh;
 }
 .contain1{
 background-color: salmon;
@@ -32,6 +32,9 @@ background-color: salmon;
     
     right: 1rem;
     top: 1rem; 
+}
+.cerchio a{
+    text-decoration: none;
 }
 .cerchio{
     float: left;
