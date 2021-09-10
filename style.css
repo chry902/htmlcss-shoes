@@ -6,7 +6,7 @@
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
-.clearfix::after {
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -28,11 +28,11 @@ background-color: salmon;
 }
 /*pulsanti*/
 .pulsanti{
-    position: absolute;
+    position: fixed;
+    
     right: 1rem;
     top: 1rem; 
 }
-
 .cerchio{
     float: left;
     line-height: 40px;
@@ -62,12 +62,10 @@ background-color: salmon;
     background-size: contain;
 }
 .img1{
-    
     background-image: url("./01.png"); 
 }
 .img2{
-    background-image: url("./02.png");
-    
+    background-image: url("./02.png"); 
 }
 .img3{
     background-image: url("./03.png"); 
